@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#cronometro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
+
+#display {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+#button-pausar{
+    background-color: gray;
+}
+
+#button-iniciar{
+    background-color: green;
+}
+
+#button-parar{
+    background-color: red;
+}
